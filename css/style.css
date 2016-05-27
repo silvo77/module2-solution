@@ -1,22 +1,26 @@
 * {
   box-sizing: border-box;-box;
 }
+
 h1 {
   text-align: center;
+  font-family: Helvetica;
 }
-div {
-  background-color: #00FFFF;
+
+.box {
+  padding: 10px;
+  background-color: #FFFFFF;
+}
+
+section{
+  background-color: #D3D3D3;
   padding: 10px;
   border: 1px solid black;
-  margin-right: auto;
-  margin-left: auto;
+  font-family: Helvetica;
 }
-.box {
-  background-color: #FFFFFF;
-  border: 0px
-}
-p {
-  width: 100px;
+
+h2 {
+  width: 150px;
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   float: right;
@@ -28,22 +32,24 @@ p {
   right: -10px;
   font-family: Helvetica;
 }
+
 #Title1{
-  background-color: #00FF00;
+  background-color: Chartreuse;
 }
 
 #Title2{
-  background-color: #AAAAAA;
+  background-color: Yellow;
 }
 
 #Title3{
-  background-color: #990099;
+  background-color: Orange;
 }
 
-section{
+.canto {
   clear: right;
-  font-family: Helvetica;
 }
+
+
 @media (min-width: 992px) {
   .col-lg-4 {
     width: 33.33%;
